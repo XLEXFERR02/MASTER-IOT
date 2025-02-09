@@ -20,4 +20,9 @@ exit
 
 				#Instalar phpmyadmin
 sudo apt-get install phpmyadmin
- 
+
+obs: En caso de equivocarse en el comando anterior, probar reinstalar phpmyadmin
+
+sudo apt-get remove --purge phpmyadmin
+sudo apt-get autoremove
+sudo apt-get clean
